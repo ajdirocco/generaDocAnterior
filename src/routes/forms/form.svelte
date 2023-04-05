@@ -4,8 +4,6 @@
 	import { fade, slide } from 'svelte/transition'
 	import { goto } from '$app/navigation'
 
-	import InPlaceEdit from '$lib/InPlaceEdit.svelte'
-
 	import notifications from '../../stores/notifications.js' //Toast.svelte
 	import ObjetosStore from '../../stores/FormsStore.js'
 	import ObjetoStore from '../../stores/FormStore'
