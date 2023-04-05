@@ -484,19 +484,26 @@
 		>
 			<div class="mb-3 leading-relaxed text-xl font-bold text-center">
 				<input
-					class="w-full h-10 border-2 border-opacity-70 border-indigo-500 border-dashed focus:outline-none focus:border-green-500 focus:border-opacity-70 text-center"
+					class="w-full h-10 text-center"
 					bind:value={objeto.subtitulo}
 					placeholder="Subtitulo"
-				/>				
+				/>
 			</div>
-			<div class="sm:text-3xl text-2xl font-medium text-center">
+			<div class="mb-3 sm:text-3xl text-2xl font-medium text-center">
 				<input
-					class="w-full h-10 border-2 border-opacity-70 border-indigo-500 border-dashed focus:outline-none focus:border-green-500 focus:border-opacity-70 text-center"
+					class="w-full h-10 text-center"
 					bind:value={objeto.titulo}
 					placeholder="Titulo"
-				/>				
+				/>
 			</div>
-			<br />
+			<div class="leading-relaxed text-sm font-bold text-center">
+				<input
+					class="w-full h-10 text-center"
+					bind:value={objeto.info}
+					placeholder={infoGral}
+				/>		
+			</div>
+			<!-- <br />
 			<button
 				class="font-medium text-indigo-700 hover:text-indigo-900 cursor-pointer  inline-flex items-center mt-2  focus:outline-none focus:border-none"
 				on:click={toggleInfo}
@@ -511,7 +518,7 @@
 						placeholder={infoGral}
 					/>					
 				</p>
-			{/if}
+			{/if} -->
 		</div>
 		<!-- botonera -->
 		<div
@@ -526,28 +533,17 @@
 					>
 				</li>
 				<li class="lg:w-1/3 mb-4 w-1/3">
-					<button
+					<!-- <button
 						on:click={guardarComo}
 						class=" font-medium text-indigo-700 hover:text-indigo-900 cursor-pointer  focus:outline-none focus:border-none"
 						>Copiar</button
-					>
-				</li>
-				<li class="lg:w-1/3 mb-4 w-1/3">
+					> -->
 					<button
 						on:click={eliminar}
 						class="font-medium text-indigo-700 hover:text-indigo-900 cursor-pointer  focus:outline-none focus:border-none"
 						>Eliminar</button
-					>
+					>					
 				</li>
-			</nav>
-			<nav class="flex flex-wrap list-none -mb-1 mt-5">
-				<!-- <li class="lg:w-1/3 mb-4 w-1/3">
-					<button
-						on:click={handleRefrescarClick}
-						class=" font-medium text-indigo-700 hover:text-indigo-900 cursor-pointer  focus:outline-none focus:border-none"
-						>Refrescar</button
-					>
-				</li> -->
 				<li class="lg:w-1/3 mb-4 w-1/3">
 					<button
 						class="rounded-full w-7 h-7 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4"
@@ -565,7 +561,35 @@
 								d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"
 							/>
 						</svg>
-					</button>
+					</button>					
+				</li>
+			</nav>
+			<nav class="flex flex-wrap list-none -mb-1 mt-5">
+				<!-- <li class="lg:w-1/3 mb-4 w-1/3">
+					<button
+						on:click={handleRefrescarClick}
+						class=" font-medium text-indigo-700 hover:text-indigo-900 cursor-pointer  focus:outline-none focus:border-none"
+						>Refrescar</button
+					>
+				</li> -->
+				<li class="lg:w-1/3 mb-4 w-1/3">
+					<!-- <button
+						class="rounded-full w-7 h-7 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4"
+						on:click={toggleFavorito}
+					>
+						<svg
+							fill="currentColor"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							class="rounded-full w-5 h-5 {isFavorito ? 'text-indigo-700' : 'text-gray-500'}"
+							viewBox="0 0 24 24"
+						>
+							<path
+								d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"
+							/>
+						</svg>
+					</button> -->
 				</li>
 				<!-- <li class="lg:w-1/3 mb-4 w-1/3">
 					<button
