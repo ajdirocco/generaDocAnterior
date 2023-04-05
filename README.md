@@ -1,4 +1,4 @@
-# generaResultados
+# generaDoc
 
 Administrador de documentos: Markown + Svelte usando [mdsvex](https://mdsvex.com/).
 
