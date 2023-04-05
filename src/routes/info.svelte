@@ -6,9 +6,9 @@
 
 	function compartirApp() {
 		navigator.share({
-			title: '📄 Genera Form',
-			url: 'https://generaform.netlify.app/',
-			text: `📄 Genera Form`
+			title: '📄 Genera Doc',
+			url: 'https://generadoc.netlify.app/',
+			text: `📄 Genera Doc`
 		});
 	}
 
@@ -29,7 +29,7 @@
 				<div class="lg:w-1/2 px-6">
 					<!-- opcion 1 -->
 					<h2 class="title-font font-semibold text-gray-900 tracking-widest text-xm">
-						Genera Form
+						Genera Doc
 					</h2>
 					<p class="mt-2 inline-flex items-center text-base">
 						Version Semilla 🌱. Sin registro ni costo.
@@ -46,7 +46,7 @@
 							Copia el link y compartilo con tus amigos:
 						</p>
 						<p class="mt-2 inline-flex items-center text-base">
-							<code>https://generaform.netlify.app/</code>
+							<code>https://generadoc.netlify.app/</code>
 						</p>
 					{/if}
 					<p class="mt-5 inline-flex items-center text-base">Muchas gracias!</p>
@@ -77,12 +77,12 @@
 						Ayuda
 					</h2>
 					<a
-						href="https://generaformdoc.netlify.app/"
+						href="https://generadoc.netlify.app/"
 						class="mt-4 inline-flex items-center py-1 text-indigo-700  hover:text-indigo-900  text-base md:mt-0 cursor-pointer focus:outline-none focus:border-none"
 						rel="noopener noreferrer"
 						target="_blank"
 					>
-						Documentación Genera Form.
+						Documentación Genera Doc.
 					</a>					
 				</div>
 			</div>

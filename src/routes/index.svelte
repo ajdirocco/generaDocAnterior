@@ -1,7 +1,7 @@
 <script context="module">
   import emojiLocal from '../stores/emoji.json'
   export async function load( { fetch } ) {
-    console.log('generaform - server - 0.1.6')
+    console.log('generadoc - server - 0.1.7')
       return {
         props: {
           emojis: emojiLocal
@@ -46,7 +46,7 @@
   }
 </script>
 <script>
-  console.log('generaform - client - 0.1.6')
+  console.log('generadoc - client - 0.1.7')
 
   import { fade } from 'svelte/transition'
 
@@ -68,7 +68,7 @@
 </script>
 
 <svelte:head>
-  <title>Genera Form</title>
+  <title>Genera Doc</title>
 </svelte:head>
 
 <section class="text-gray-600 body-font" transition:fade>
@@ -76,7 +76,7 @@
     <button
       on:click={ () => {tabActual = 'default'}}
       class="pl-0 pt-4 pr-4 -mb-px border-b text-indigo-700 {tabActual == 'default' ? 'border-current' : 'border-transparent'}"
-      >Forms</button>
+      >Docs</button>
     <button
       on:click={ () => {tabActual = 'favoritos'}}
       class="p-4 pt-8  -mb-px border-b hover:text-indigo-700 {tabActual == 'favoritos' ? 'border-current' : 'border-transparent'}"

@@ -10,7 +10,7 @@
         <a  href="/"
             class="font-medium text-indigo-700  hover:text-indigo-900 focus:outline-none focus:border-none"
             rel="noopener noreferrer">
-            {appNombre} - 0.1.6
+            {appNombre} - 0.1.7
         </a>
     </p>
 </footer>

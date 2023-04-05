@@ -1,5 +1,5 @@
-const CACHE_VERSION = '0.1.6';
-var cacheName = 'generaform';
+const CACHE_VERSION = '0.1.7';
+var cacheName = 'generadoc';
 var filesToCache = [
   '/'
 ];

@@ -4,10 +4,10 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "short_name": "Genera Form",
-    "name": "Genera Form",
-    "app_name": "Genera Form",
-    "description": "Generador de Form",
+    "short_name": "Genera Doc",
+    "name": "Genera Doc",
+    "app_name": "Genera Doc",
+    "description": "Administrador de documentos mdsvex",
     "prefer_related_applications": false,
     "icons": [
         {
