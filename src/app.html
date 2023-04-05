@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Genera Form</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; ISO-8859-1" />
+		<meta name="DC.Language" scheme="RFC1766" content="Spanish" />
+		<meta name="AUTHOR" content="monap" />
+		<meta name="REPLY-TO" content="generatorneos@gamil.com" />
+		<link rev="made" href="mailto:generatorneos@gamil.com" />
+		<meta name="DESCRIPTION" content="Genera Form." />
+		<meta
+			name="KEYWORDS"
+			content="deportes,juegos,torneos,round-robin,playoffs,copa,campeonato,generador,random,aleatorio,formulario,partida,comentario, form"
+		/>
+		<meta name="Resource-type" content="Document" />
+		<meta name="DateCreated" content="Sat, 2 April 2022 00:00:00 GMT+3" />
+		<meta name="robots" content="ALL" />
+		<link
+			rel="icon"
+			href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📄</text></svg>"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#4338CA" />
+		<link
+			class="img-circle"
+			rel="shortcut icon"
+			alt="Espere por favor"
+			href="/icon-32x32.png"
+			type="image/x-icon"
+		/>
+		<link rel="apple-touch-icon" href="/icon-32x32.png" />
+		<link rel="manifest" href="/manifest.json" />
+		%svelte.head%
+	</head>
+	<body>
+		<div>%svelte.body%</div>
+	</body>
+	<script>
+		//set service worker ----------------------------------------------------
+		console.log('generaform - html - 0.1.6');
+		window.isUpdateAvailable = new Promise(function (resolve, reject) {
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker
+					.register('/service-worker.js', { scope: '/' })
+					.then((reg) => {
+						console.log('serviceWorker - inited - ok');
+						reg.onupdatefound = () => {
+							const installingWorker = reg.installing;
+							installingWorker.onstatechange = () => {
+								switch (installingWorker.state) {
+									case 'installed':
+										if (navigator.serviceWorker.controller) {
+											// new update available
+											console.log('serviceWorker - new update available');
+											location.reload();
+											resolve(true);
+										} else {
+											// no update available
+											console.log('serviceWorker - no update available');
+											resolve(false);
+										}
+										break;
+								}
+							};
+						};
+					})
+					.catch((err) => console.error('[SW ERROR]', err));
+			}
+		});
+	</script>
+</html>

@@ -1,0 +1,731 @@
+[
+  {
+  "codigo": "1F334",
+  "caracter": "🌴",
+  "nombre": "Palmera",
+  "titulo": "Son de palo",
+  "subtitulo": "Los de afuera",
+  "tipo": "equipo",
+  "categoria": "plantas"
+  },
+  {
+  "codigo": "1F335",
+  "caracter": "🌵",
+  "nombre": "Cactus",
+  "titulo": "En el terraplen",
+  "subtitulo": "A las 11",
+  "tipo": "equipo",
+  "categoria": "plantas"
+  },
+  {
+  "codigo": "1F347",
+  "caracter": "🍇",
+  "nombre": "Uva",
+  "titulo": "Quien no puso",
+  "subtitulo": "Faltan 150",
+  "tipo": "equipo",
+  "categoria": "alimentos"
+  },
+  {
+  "codigo": "1F349",
+  "caracter": "🍉",
+  "nombre": "Sandia",
+  "titulo": "Garpa",
+  "subtitulo": "Rompe, pincha, cuelga",
+  "tipo": "equipo",
+  "categoria": "alimentos"
+  },
+  {
+  "codigo": "1F600",
+  "caracter": "😀",
+  "nombre": "Sonriente",
+  "titulo": "El hormiguero",
+  "subtitulo": "Cuidado",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F480",
+  "caracter": "💀",
+  "nombre": "Carabera",
+  "titulo": "Para ya terminamos",
+  "subtitulo": "Me tengo que ir",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F989",
+  "caracter": "🦉",
+  "nombre": "Buo",
+  "titulo": "Dale cinco",
+  "subtitulo": "Y Juan no vino?",
+  "tipo": "equipo",
+  "categoria": "animales"
+  },
+  {
+  "codigo": "1F986",
+  "caracter": "🦆",
+  "nombre": "Pato",
+  "titulo": "Un auto",
+  "subtitulo": "Para que viene",
+  "tipo": "equipo",
+  "categoria": "animales"
+  },
+  {
+  "codigo": "1F984",
+  "caracter": "🦄",
+  "nombre": "Unicornio",
+  "titulo": "A la canilla",
+  "subtitulo": "Del arbol",
+  "tipo": "equipo",
+  "categoria": "animales"
+  },
+  {
+  "codigo": "1F1F2 1F1FD",
+  "caracter": "🌮",
+  "nombre": "Mexico",
+  "titulo": "Una raiz",
+  "subtitulo": "Uh el colo patio",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F1EF 1F1F2",
+  "caracter": "🥥",
+  "nombre": "Jamaica",
+  "titulo": "Quiere jugar?",
+  "subtitulo": "Falta uno, alguno",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F1ED 1F1F3",
+  "caracter": "🥙",
+  "nombre": "Honduras",
+  "titulo": "Sacan ustedes",
+  "subtitulo": "Elijen ellos,",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F1FA 1F1F8",
+  "caracter": "🍔",
+  "nombre": "Estados Unidos",
+  "titulo": "El colo juega",
+  "subtitulo": "Un tiempo para cada lado",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F1E8 1F1F7",
+  "caracter": "🍚",
+  "nombre": "Costa Rica",
+  "titulo": "Y el cabeza para nosotros",
+  "subtitulo": "El colo y el peti para ustedes",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F1EA 1F1E8",
+  "caracter": "🌹",
+  "nombre": "Ecuador",
+  "titulo": "Agranden el arco!",
+  "subtitulo": "Dale un poco mas",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F1E7 1F1F4",
+  "caracter": "🥟",
+  "nombre": "Bolivia",
+  "titulo": "Media cancha",
+  "subtitulo": "Con y sin pecheras",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F1FB 1F1EA",
+  "caracter": "🕷️",
+  "nombre": "Venezuela",
+  "titulo": "Ganador queda",
+  "subtitulo": "Y como hacemos?",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F1FA 1F1FE",
+  "caracter": "🧉",
+  "nombre": "Uruguay",
+  "titulo": "Dos de diferencia",
+  "subtitulo": "A cuanto jugamos",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F1E8 1F1F1",
+  "caracter": "🏄",
+  "nombre": "Chile",
+  "titulo": "Cinco contra Cuatro",
+  "subtitulo": "Siempre falta uno",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F383",
+  "caracter": "🎃",
+  "nombre": "Calabaza",
+  "titulo": "Sera de D10s!!!",
+  "subtitulo": "Siempre falta alguien!",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F600",
+  "caracter": "🤡",
+  "nombre": "Payaso",
+  "titulo": "Pan y queso",
+  "subtitulo": "Piedra papel o...",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F916",
+  "caracter": "🤖",
+  "nombre": "Robot",
+  "titulo": "Te quiero mas",
+  "subtitulo": "Y cada dia",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F47D",
+  "caracter": "👽",
+  "nombre": "Alien",
+  "titulo": "Para quien entro",
+  "subtitulo": "Falta alguno?",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F9B9",
+  "caracter": "🦹",
+  "nombre": "Supervillano",
+  "titulo": "Como va el partido?",
+  "subtitulo": "He azul",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F9B8 1F3FD 200D 2640 FE0F",
+  "caracter": "🦸🏽‍♀️",
+  "nombre": "Superheroe",
+  "titulo": "No enserio, quien patea",
+  "subtitulo": "Lo pateo yo",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F4A7",
+  "caracter": "💧",
+  "nombre": "Agua",
+  "titulo": "Quiero la revancha",
+  "subtitulo": "El resultado es mentiroso",
+  "tipo": "equipo",
+  "categoria": "cosas"
+  },
+  {
+  "codigo": "1F525",
+  "caracter": "🔥",
+  "nombre": "Fuego",
+  "titulo": "Como se llama",
+  "subtitulo": "Ese señor que no se",
+  "tipo": "equipo",
+  "categoria": "cosas"
+  },
+  {
+  "codigo": "1F1F5 1F1EA",
+  "caracter": "🌄",
+  "nombre": "Peru",
+  "titulo": "Por la orilla!",
+  "subtitulo": "Juga por la orilla",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F1F5 1F1FE",
+  "caracter": "🍍",
+  "nombre": "Paraguay",
+  "titulo": "Sube el 3",
+  "subtitulo": "Quedate arriba sino",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F981",
+  "caracter": "🦁",
+  "nombre": "Leon",
+  "titulo": "El de rulos",
+  "subtitulo": "Anda mas despacio si vos",
+  "tipo": "equipo",
+  "categoria": "animales"
+  },
+  {
+  "codigo": "1F43A",
+  "caracter": "🐺",
+  "nombre": "Lobo",
+  "titulo": "Vamos a dar",
+  "subtitulo": "Toda la vuelta",
+  "tipo": "equipo",
+  "categoria": "animales"
+  },
+  {
+  "codigo": "1F637",
+  "caracter": "😷",
+  "nombre": "Barbijo",
+  "titulo": "Se juega igual",
+  "subtitulo": "Si llueve",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F601",
+  "caracter": "😁",
+  "nombre": "Radiante",
+  "titulo": "Tapones de aluminio",
+  "subtitulo": "Sin tarjetas y con",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F95D",
+  "caracter": "🥝",
+  "nombre": "Kiwi",
+  "titulo": "Anido y Mesias",
+  "subtitulo": "Negri al arco",
+  "tipo": "equipo",
+  "categoria": "alimentos"
+  },
+  {
+  "codigo": "1F345",
+  "caracter": "🍅",
+  "nombre": "Tomate",
+  "titulo": "No voy",
+  "subtitulo": "No voy al arco",
+  "tipo": "equipo",
+  "categoria": "alimentos"
+  },
+  {
+  "codigo": "1F33C",
+  "caracter": "🌼",
+  "nombre": "Margarita",
+  "titulo": "Una pasión",
+  "subtitulo": "Una pasión es",
+  "tipo": "equipo",
+  "categoria": "plantas"
+  },
+  {
+  "codigo": "1F33B",
+  "caracter": "🌻",
+  "nombre": "Girasol",
+  "titulo": "Entre el 62 y el 63",
+  "subtitulo": "Jugo solo dos partidos",
+  "tipo": "equipo",
+  "categoria": "plantas"
+  },
+  {
+  "codigo": "1FA81",
+  "caracter": "🪁",
+  "nombre": "Barrilete",
+  "titulo": "El de rojo",
+  "subtitulo": "-Quien es el 8 - Cual?",
+  "tipo": "equipo",
+  "categoria": "cosas"
+  },
+  {
+  "codigo": "1F388",
+  "caracter": "🎈",
+  "nombre": "Globo",
+  "titulo": "Wing derecho",
+  "subtitulo": "Memorias de un",
+  "tipo": "equipo",
+  "categoria": "cosas"
+  },
+  {
+  "codigo": "1F1E6 1F1F7",
+  "caracter": "🥩",
+  "nombre": "Argentina",
+  "titulo": "El gol gana",
+  "subtitulo": "En el torneo infinito",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F1E7 1F1F7",
+  "caracter": "🏖️",
+  "nombre": "Brasil",
+  "titulo": "Es tuyo",
+  "subtitulo": "Che celeste el 4",
+  "tipo": "equipo-tmp",
+  "categoria": "paises"
+  },
+  {
+  "codigo": "1F431",
+  "caracter": "🐱",
+  "nombre": "Gato",
+  "titulo": "Feos, sucios y malos",
+  "subtitulo": "D.T.  Ettore Scola",
+  "tipo": "equipo",
+  "categoria": "animales"
+  },
+  {
+  "codigo": "1F436",
+  "caracter": "🐶",
+  "nombre": "Perro",
+  "titulo": "Unos choris",
+  "subtitulo": "Despues del partido",
+  "tipo": "equipo",
+  "categoria": "animales"
+  },
+  {
+  "codigo": "1F468 1F3FE 200D 1F9B3",
+  "caracter": "👨🏾‍🦳",
+  "nombre": "Abuelo",
+  "titulo": "Casados",
+  "subtitulo": "Solteros contra",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F476",
+  "caracter": "👶",
+  "nombre": "Bebe",
+  "titulo": "Saturno",
+  "subtitulo": "La bicicleta de",
+  "tipo": "equipo",
+  "categoria": "caras"
+  },
+  {
+  "codigo": "1F34B",
+  "caracter": "🍋",
+  "nombre": "Limon",
+  "titulo": "Ya van a venir",
+  "subtitulo": "Las buenas",
+  "tipo": "equipo",
+  "categoria": "alimentos"
+  },
+  {
+  "codigo": "1F34A",
+  "caracter": "🍊",
+  "nombre": "Naranja",
+  "titulo": "En el tablón",
+  "subtitulo": "Saltando todos juntos",
+  "tipo": "equipo",
+  "categoria": "alimentos"
+  },
+  {
+  "codigo": "1F337",
+  "caracter": "🌷",
+  "nombre": "Tulipan",
+  "titulo": "A Todas partes",
+  "subtitulo": "Yo te sigo",
+  "tipo": "equipo",
+  "categoria": "plantas"
+  },
+  {
+  "codigo": "1F331",
+  "caracter": "🌱",
+  "nombre": "Semilla",
+  "titulo": "Una Gitana",
+  "subtitulo": "Me lo dijo",
+  "tipo": "equipo",
+  "categoria": "plantas"
+  },
+  {
+  "codigo": "1F579 FE0F",
+  "caracter": "🕹️️",
+  "nombre": "Joystick antiguo",
+  "titulo": "Las malas",
+  "subtitulo": "En las buenas y en",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3AE",
+  "caracter": "🎮️️",
+  "nombre": "Joystick nuevo",
+  "titulo": "A ver",
+  "subtitulo": "Hoy te vinimos",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3B2",
+  "caracter": "🎲️️",
+  "nombre": "Dados",
+  "titulo": "Los momentos vividos",
+  "subtitulo": "A pesar de los años",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F0CF",
+  "caracter": "🃏️️",
+  "nombre": "Cartas",
+  "titulo": "Tenemos que ganar",
+  "subtitulo": "Esta tarde",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3AD",
+  "caracter": "🎭",
+  "nombre": "Teatro",
+  "titulo": "El escorpión",
+  "subtitulo": "La de Higuita",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3A8",
+  "caracter": "🎨",
+  "nombre": "Pintura",
+  "titulo": "El sapo",
+  "subtitulo": "la pulga, el polilla y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F455",
+  "caracter": "👕️️",
+  "nombre": "Moda",
+  "titulo": "El ruso",
+  "subtitulo": "El tano, el uru y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3A4",
+  "caracter": "🎤️️️",
+  "nombre": "Canto",
+  "titulo": "El jefe",
+  "subtitulo": "El patrón, el cacique y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3D1",
+  "caracter": "🏑️️",
+  "nombre": "Hockey",
+  "titulo": "El pampa",
+  "subtitulo": "El tucu, el cordobes y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3D3",
+  "caracter": "🏓️️",
+  "nombre": "Ping Pong",
+  "titulo": "El burrito",
+  "subtitulo": "El mono, el tigre y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3AF",
+  "caracter": "🎯️️",
+  "nombre": "Dardos",
+  "titulo": "La chancha",
+  "subtitulo": "El pato, el conejo y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F370",
+  "caracter": "🍰️️️",
+  "nombre": "Cocina",
+  "titulo": "El bocha",
+  "subtitulo": "el bochi, el bicho y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3B3",
+  "caracter": "🎳️️",
+  "nombre": "Bolos",
+  "titulo": "D10s",
+  "subtitulo": "Pelusa, barrilete cósmico y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "26BD",
+  "caracter": "⚽️️",
+  "nombre": "Futbol",
+  "titulo": "El chori",
+  "subtitulo": "El lechuga, el cebolla y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "26BE",
+  "caracter": "⚾",
+  "nombre": "Beisbol",
+  "titulo": "El chaucha",
+  "subtitulo": "El checho, el chucho y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3C0",
+  "caracter": "🏀️",
+  "nombre": "Basquet",
+  "titulo": "El chacho",
+  "subtitulo": "El chicho, el chocho y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3D0",
+  "caracter": "🏐️",
+  "nombre": "Voley",
+  "titulo": "El pajaro",
+  "subtitulo": "El cuervo, el palomo y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3C9",
+  "caracter": "🏉️",
+  "nombre": "Rugby",
+  "titulo": "El panchito",
+  "subtitulo": "El mostaza, el picante y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3BE",
+  "caracter": "🎾️",
+  "nombre": "Tenis",
+  "titulo": "El fatura",
+  "subtitulo": "El panadero, el chocolate y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F94A",
+  "caracter": "🥊️",
+  "nombre": "Boxeo",
+  "titulo": "Centrinio  ",
+  "subtitulo": "Del medinio para el",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F94B",
+  "caracter": "🥋️",
+  "nombre": "Artes marciales",
+  "titulo": "A la olla",
+  "subtitulo": "Todos los centros",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "26F3",
+  "caracter": "⛳️",
+  "nombre": "Golf",
+  "titulo": "De vuelta al extremo",
+  "subtitulo": "El defensa la pasa al centro",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3BF",
+  "caracter": "🎿",
+  "nombre": "Esqui",
+  "titulo": "La retiene",
+  "subtitulo": "De vuelta al centro, este la retiene",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F483",
+  "caracter": "💃",
+  "nombre": "Baile",
+  "titulo": "Al extreminio",
+  "subtitulo": "O defencinia la pasa al centrinio, este",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F938",
+  "caracter": "🤸",
+  "nombre": "Destreza",
+  "titulo": "la retiene, la retiene",
+  "subtitulo": "Este al centrinio, el centrinio",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F6B4",
+  "caracter": "🚴",
+  "nombre": "Bicicleta",
+  "titulo": "El topo",
+  "subtitulo": "El laucha, el ratón y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F9D7",
+  "caracter": "🧗",
+  "nombre": "Escalada",
+  "titulo": "El oso",
+  "subtitulo": "El payaso, el mago y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F3CA",
+  "caracter": "🏊",
+  "nombre": "Nado",
+  "titulo": "El pulpo",
+  "subtitulo": "El tiburón, el pejerrey y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "26F5",
+  "caracter": "⛵️",
+  "nombre": "Navegación",
+  "titulo": "El tanque",
+  "subtitulo": "El rifle, el pistolero y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F6E9 FE0F",
+  "caracter": "🛩️",
+  "nombre": "Vuelo",
+  "titulo": "Me devuelve la pelota",
+  "subtitulo": "Señora, señora",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F6F9",
+  "caracter": "🛹️",
+  "nombre": "Skate",
+  "titulo": "Haciendo banco",
+  "subtitulo": "Comiendo semillitas y",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  },
+  {
+  "codigo": "1F6FC",
+  "caracter": "🤓",
+  "nombre": "Patin",
+  "titulo": "'En 'orsai' otra vez",
+  "subtitulo": "El nuevo quedó",
+  "tipo": "torneo",
+  "categoria": "juegos"
+  }
+  ]
