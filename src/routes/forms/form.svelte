@@ -20,7 +20,7 @@
 	const gistBaseUrl = 'https://api.github.com/gists/'
 	let isEdicion = false
 	let showInfo = false
-	let infoGral = 'Genera un texto usando Markdown y tags especiales'
+	let infoGral = 'Descripción'
 	let isFavorito = false
 	let canShare = false
 	try {
