@@ -1,6 +1,6 @@
 # generaResultados
 
-Administrador de documentos: Markown + Svelte [mdsvex](https://mdsvex.com/)
+Administrador de documentos: Markown + Svelte usando [mdsvex](https://mdsvex.com/).
 
 ## Languages
 
