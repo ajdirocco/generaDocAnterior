@@ -480,18 +480,18 @@
 		<div
 			class="w-full md:w-1/2 md:pr-12 md:pt-0 md:border-r-2 md:border-b-0 mb-0 md:mb-0 pb-0  border-gray-200"
 		>
-			<div class="mb-3 leading-relaxed text-xl font-bold text-center">
-				<input
-					class="w-full h-10 text-center"
-					bind:value={objeto.subtitulo}
-					placeholder="Subtitulo"
-				/>
-			</div>
 			<div class="mb-3 sm:text-3xl text-2xl font-medium text-center">
 				<input
 					class="w-full h-10 text-center"
 					bind:value={objeto.titulo}
 					placeholder="Titulo"
+				/>
+			</div>
+			<div class="mb-3 leading-relaxed text-xl font-bold text-center">
+				<input
+					class="w-full h-10 text-center"
+					bind:value={objeto.subtitulo}
+					placeholder="Subtitulo"
 				/>
 			</div>
 			<div class="leading-relaxed text-sm font-bold text-center">
