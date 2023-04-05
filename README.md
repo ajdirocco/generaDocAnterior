@@ -1,17 +1,10 @@
-# generaForm
+# generaResultados
 
-Generador de formularios: Documentos Markown + Snippets. (Derivado generaForms 0.0.70)
+Administrador de documentos: Markown + Svelte [mdsvex](https://mdsvex.com/)
 
 ## Languages
 
-Sveltekit + Tailwindcss + [Github Gist](https://gist.github.com/) (persistencia de los forms y sus datos)
-
-## Api
-
-List of teams by colors or emojis.
-
-https://generatorneosapi.netlify.app/color.json
-https://generatorneosapi.netlify.app/emoji.json
+Sveltekit + Tailwindcss + [Github Gist](https://gist.github.com/)
 
 ## Developing
 
